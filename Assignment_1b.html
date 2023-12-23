@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment_1b</title>
+    <!-- <link rel="stylesheet" href="Assignment_1b.css"> -->
+    <style>
+
+            html{
+                font-size: 16px;
+            }
+            body{
+                width: 100vw;
+                height: 100vh;
+                position: fixed;
+            }
+            .container{
+                display: flex;
+                height: 100%;
+
+            }
+            section{
+                width: 50%;
+                /* border: 1px solid; */
+            }
+            .section1{
+                /* background-color: pink; */
+                padding: 3rem 1rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .heading{
+                align-self: center;
+                /* border: 1px solid; */
+            }
+            .footer{
+                align-self: center;
+                /* border: 1px solid; */
+            }
+
+            h1{
+                font-size: 3rem;
+                width: 100%;
+                text-align: center;
+            }
+            h2{
+                font-weight: normal;
+                margin: 0;
+            }
+
+            .section2{
+                background-color: white;
+                padding: 3rem;
+                overflow: scroll;
+            }
+            form{
+                border: 1px solid grey;
+                padding: 1rem 2rem;
+            }
+            .form_container{
+                display: flex;
+                flex-direction: column;
+            }
+            .form_row1, .form_row2, .form_row3, .form_row4, .form_row5, .form_row6, .form_row7{
+                display: flex;
+                justify-content: space-between;
+            } 
+            label{
+                display: block;
+                padding: 1.5rem 0 0 0;
+            }
+            input{
+                width: 15.6rem;
+                height: 2.5rem;
+                border-radius: 0.2rem;
+                border: 1px solid grey;
+                /* padding-left: 1rem; */
+            }
+            select{
+                width: 16rem;
+                height: 2.7rem;
+                box-sizing: border-box;
+                border-radius: 0.2rem;
+                border: 1px solid grey;
+                /* padding-left: 1rem; */
+            }
+            button{
+                display: block;
+                width: 100%;
+                height: 3rem;
+            }
+            .form_row8{
+                /* border: 1px solid; */
+            }
+            p small{
+                display: block;
+                text-align: center;
+                /* border: 1px solid; */
+            }
+            h3{
+                font-size: 2rem;
+                margin: 1rem 0;
+            }
+            .subheading{
+                font-size: 1.2rem;
+                margin: 0 0.1rem 0 0;
+            }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+
+        <section class="section1">
+            <div>
+                <img src="" alt="logo">
+            </div>
+            
+            <div class="heading">
+                <h1>Learn highly sought <br> after skills<br>without hassle</h1>
+                <h2>Earn a diploma in highly sought after skills.</h2>
+            </div>
+            
+            <div class="footer">
+                <nav>
+                <img src="" alt="twitter">
+                <img src="" alt="instagram">
+                <img src="" alt="facebook">
+                <img src="" alt="linkendin">
+            </nav>
+            <p>&copy;2023 Altschool Africa. All rights reserved.</p>
+        </div>
+            
+        </section>
+
+
+        <section class="section2">
+            <form action="">
+            <h3>Application Form</h3>
+            <p class="subheading">Fill in your details</p>
+
+            <div class="form_container">
+
+                <div class="form_row1">
+                    <div><label for="">First Name</label>
+                        <input type="text" placeholder="Enter first name" required></div>
+                    <div><label for="">Last Name</label>
+                        <input type="text" placeholder="Enter last name" required></div>
+                </div>
+               
+                <div class="form_row2">
+                    <div><label for="">Gender</label>
+                        <select name="" id="">
+                            <option value="">Select Gender</option>
+                            <option value="">Male</option>
+                            <option value="">Female</option>
+                        </select></div>
+                    <div><label for="">Date of Birth</label>
+                        <input type="date" required></div>
+                </div>
+
+                <div class="form_row3">
+                    <div><label for="">Email Address</label>
+                        <input type="text" placeholder="Enter email address" required></div>
+                    <div><label for="">Eucation Level</label>
+                        <select name="" id="">
+                            <option value="">Select Level of education</option>
+                            <option value="">Nigeria</option>
+                            <option value="">America</option>
+                        </select></div>
+                </div>
+
+                <div class="form_row4">
+                    <div><label for="">Country</label>
+                        <select name="" id="">
+                        <option value="">Select your country</option>
+                        <option value="">Nigeria</option>
+                        <option value="">America</option>
+                        </select></div>
+                    <div><label for="">State/City of Residence</label>
+                        <input type="text" placeholder="Enter your state of residence" required></div>
+                </div>
+
+                <div class="form_row5">
+                    <div><label for="">Employment Status</label>
+                        <select name="" id="">
+                            <option value="">Select employment status</option>
+                            <option value="">Unemployed</option>
+                            <option value="">Student</option>
+                        </select></div>
+                    <div><label for="">Phone Number</label>
+                        <input type="text" placeholder="08154387000" required></div>
+                </div>
+
+                <div class="form_row6">
+                    <div><label for="">Choose School</label>
+                        <select name="" id="">
+                            <option value="">Select school</option>
+                            <option value="">Nigeria</option>
+                            <option value="">America</option>
+                        </select></div>
+                    <div><label for="">Choose Course of Study</label>
+                        <select name="" id="">
+                            <option value="">Select course</option>
+                            <option value="">Nigeria</option>
+                            <option value="">America</option>
+                        </select></div>
+                </div>
+
+                <div class="form_row7">
+                    <div><label for="">How did you hear about us?</label>
+                        <select name="" id="">
+                            <option value="">Select channel</option>
+                            <option value="">Nigeria</option>
+                            <option value="">America</option>
+                        </select></div>
+                    <div><label for="">Scholarship/Discount Code (optional)</label>
+                        <input type="text" placeholder="Scholarship or stuent ID or discount codes" required></div>
+                </div>
+
+                <div class="form_row8">
+                    <p>By clicking continue, I agrre to <a href="">Terms of use</a> and I acknowledge that I have read the Privacy policy</p>
+                    <button>
+                        Proceed
+                    </button>
+                    <p><small>Already have an account? <a href="">Sign in</a></small></p>
+                </div>
+
+            </div>
+        </form>
+        </section>
+
+    </div>
+</body>
+</html>
